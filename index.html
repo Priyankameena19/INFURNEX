@@ -1,0 +1,68 @@
+<html>
+<head>
+    <title>INFURNEX</title>
+    <link rel="stylesheet" href="fur.css">
+
+<!--------------------Google Font Link-------------------------->  
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+<!--------------------Google Font Link-------------------------->
+
+<!--------------------Font Awesome Link------------------------->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+<!--------------------Font Awesome Link------------------------->
+
+</head>
+
+<body>
+
+<section class="header">
+     <nav>
+         <div class="navbar" id="navLinks">
+            <i class=" fa fa-solid fa-xmark"onclick="hidemenu()"></i>
+             <ul>
+                <li><a href="">HOME</a></li>
+                <li><a href="">ABOUT</a></li>
+                <li><a href="">BRANDS</a></li>
+                <li><a href="">SHOP</a></li>
+                <li><a href="">CONTACT</a></li>
+             </ul>
+         </div>
+         <i class="fa fa-solid fa-bars"onclick="showmenu()"></i>
+    </nav>
+
+<div class="text-box">
+    <h1>DESING THAT DEFINE YOUR PLACE</h1>
+    <P>Transform your space with expert advice! Enjoy a free consultation for interior design tips.Let's bring your vision to life.<br>Our collection caters to serve every need.</P>
+    <a href="" class="button_1">Visit Us To Know More</a>
+</div>  
+
+</section>
+
+
+
+
+
+
+
+
+<!----------JavaScript for Toggle menu------------->
+<script>
+
+  var navLinks = document.getElementById("navLinks");
+
+  function showmenu(){
+    navLinks.style.left = "0";
+  }
+  function hidemenu(){
+    navLinks.style.left = "-200px";
+  }
+
+</script>
+<!----------JavaScript for Toggle menu------------->
+
+
+
+</body>
+</html>
